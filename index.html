@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Personal Website</h1>
+    <header id="home">
+        <h1>Hi, I'm Jagriti Das</h1>
+        <p>Software Engineer | AI Enthusiast</p>
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
     <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Hello! I am a software engineer specializing in AI and machine learning.</p>
-        </section>
-        <section>
+        <section id="projects">
             <h2>Projects</h2>
-            <ul>
-                <li><a href="https://github.com/yourusername/project1">Project 1</a></li>
-                <li><a href="https://github.com/yourusername/project2">Project 2</a></li>
-            </ul>
+            <div class="project-card">
+                <h3>Project Name</h3>
+                <p>Brief description of the project.</p>
+                <a href="https://github.com/yourproject" target="_blank">View on GitHub</a>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>Contact: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <footer id="contact">
+        <p>Contact: <a href="mailto:yourname@example.com">jagriti.das2013@gmail.com/a></p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
